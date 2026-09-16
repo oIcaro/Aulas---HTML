@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+        <h2>Listas Ordenadas</h2>
+            <ol> <!--Posso utilizar as propriedades type= e start= (nomes autoexplicativos / start necessita de parâmetro numérico)-->
+                <li>Acordar</li>
+                <li>Ligar para o joão</li>
+                <ol type=""> <!--Exemplo de SUBLISTAS dentro de uma lista (mudando o type para 'a')-->
+                    <li>(Comentar sobre o trabalho)</li>
+                    <li>(Pedir ajuda para o arq .JSON)</li>
+                </ol>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para a faculdade</li>
+                <li>Almoçar</li>
+                <li>Ir para o trabalho</li>
+                <li>Voltar para casa</li>
+                <li>Jantar</li>
+                <li>Dormir</li>
+            </ol>
+
+        <h2>Listas NÃO ordenadas</h2>
+            <ul type="circle"> <!--posso mudar o type: disk, circle e square-->
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+
+
+        <h2>Minhas linguagens favoritas</h2>
+            <ol>
+                <li>Antigas</li>
+                <ol type="a">
+                    <li>Java</li>
+                    <li>React-Native</li>
+                    <li>Kotlin</li>
+                    <li>VBA</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="a" start="5">
+                    <li>SQL</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ol>
+            </ol>
+
+
+        <h2>Meus jogos favoritos</h2>
+            <ol>
+                <li>XBOX</li>
+                <ul type="square">
+                    <li>Halo - Collection</li>
+                    <ul type="circle">
+                        <li>Halo 4</li>
+                    </ul>
+                    <li>Call of Duty</li>
+                    <ul type="circle">
+                        <li>World at War</li>
+                        <li>Ghosts</li>
+                    </ul>
+                </ul>
+                <li>PlayStation</li>
+                <ul type="square">
+                    <li>God of War - Collection</li>
+                    <ul>
+                        <li>Ghost of Sparta</li>
+                    </ul>
+                    <li>Black</li>
+                </ul>
+                <li>GBA</li>
+                <ul type="square">
+                    <li>Pokemón - Fire Red</li>
+                    <li>Pokemón - Emerald</li>
+                </ul>
+                <li>PSP</li>
+                <ul type="square" start="3">
+                    <li>Megaman: Maverick Hunter X</li>
+                    <li>Metal Slug</li>
+                </ul>
+            </ol>
+
+
+        <h2>Lista de Definições</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação para criar sites</dd>
+
+                <dt>CSS</dt>
+                <dd>Linguagem de marcação para criar o design dos sites</dd>
+
+                <dt>JavaScript</dt>
+                <dd>Linguagemd de programação para tornar o site funcional</dd>
+            </dl>
+
+
+
+</body>
+</html>
